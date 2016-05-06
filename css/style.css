@@ -11,6 +11,11 @@
 	float: right;
 	font-size: 16px;
 	margin-top: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 
 }
 .top-navigation .links li {
@@ -26,5 +31,6 @@
 	color: #33333;
 }
 .top-navigation .logo {
-	padding: 5px;
+	padding: 0px 15px;
+	margin-left: 60px;
 }
