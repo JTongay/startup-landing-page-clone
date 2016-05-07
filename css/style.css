@@ -34,3 +34,20 @@
 	padding: 0px 15px;
 	margin-left: 60px;
 }
+/*Body Section*/
+.introduction .content {
+	background-image: url(http://i1077.photobucket.com/albums/w475/JTongay/first-background%20copy_zpsxkiuu8dp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.intro {
+	color: #fff;
+}
+
+
+
+
+
+
+
