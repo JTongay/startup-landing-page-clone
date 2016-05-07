@@ -35,14 +35,21 @@
 	margin-left: 60px;
 }
 /*Body Section*/
-.introduction .content {
+.introduction {
 	background-image: url(http://i1077.photobucket.com/albums/w475/JTongay/first-background%20copy_zpsxkiuu8dp.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center bottom;
+	overflow: auto;
+	height: 45.938rem;
 }
-.intro {
+.introduction {
 	color: #fff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	
 }
 
 
