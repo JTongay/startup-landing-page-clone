@@ -6,6 +6,9 @@ body {
 }
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	width: 970px;
@@ -82,17 +85,59 @@ button:hover {
 	cursor: pointer;
 }
 /* Three-icon section*/
-.karma {
+.information hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.cases {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	-webkit-font-smoothing: antialiased;
+}
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/*styles to assist with debugging*/
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
 
 .information .devices li {
 	display: inline-block;
-	padding: 70px;
+	padding: 75px;
 	list-style: none;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
+/*3 icon section*/
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .icons li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	width: 96%;
+	text-align: center;
 
+}
+.social .icons li:hover {
+	cursor: pointer;
+	color: #33333;
+}
+.welcome {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+.copyright {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
 
 
