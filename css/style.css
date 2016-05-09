@@ -130,6 +130,15 @@ button:hover {
 	cursor: pointer;
 	color: #33333;
 }
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
 .welcome {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -138,6 +147,12 @@ button:hover {
 .copyright {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
 }
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
 
+}
 
