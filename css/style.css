@@ -141,12 +141,16 @@ button:hover {
   margin: 1.313rem 0;
 }
 
-.social .icons li {
-  list-style: none;
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   display: inline-block;
-  padding: 5px;
-  width: 96%;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .social .icons li:hover {
@@ -182,4 +186,5 @@ button:hover {
   background-color: #fff;
   overflow: auto;
   padding-bottom: 9.375rem;
+  text-align: center;
 }
