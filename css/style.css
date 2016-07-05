@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation {
@@ -112,16 +114,43 @@ button:hover {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
+  overflow: hidden;
+  padding-bottom: 5rem;
   -webkit-font-smoothing: antialiased;
 }
 
-.cases .devices {
+.cases .content {
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.cases .devices > li {
   width: 33.3333333%;
-  display: inline-block;
+  float: left;
   /*styles to assist with debugging*/
+  /*display: inline-block;
   border: 1px solid black;
   box-sizing: border-box;
-  height: 4em;
+  height: 4em;*/
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.562rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .devices p {
+  font-weight: 300;
+  font-size: 1.313rem;
 }
 
 .information .devices li {
